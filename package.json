@@ -1,0 +1,15 @@
+{
+  "name": "blackout-coop",
+  "version": "3.4.0",
+  "private": true,
+  "type": "module",
+  "description": "Forty-level data-center recovery platformer with solo and two-player online co-op.",
+  "engines": { "node": ">=22" },
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js",
+    "test": "node --test test/*.test.js",
+    "build": "node scripts/build-offline.js",
+    "test:load": "node scripts/load-test.mjs"
+  }
+}
